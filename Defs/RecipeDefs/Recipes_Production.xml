@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+
+  <RecipeDef>
+    <defName>RepairArmour</defName>
+    <label>repair power armour</label>
+    <description>Use plasteel to reinforce worn power armour.</description>
+    <jobString>Repairing power armour.</jobString>
+    <workAmount>3000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <skillRequirements>
+      <li>
+        <skill>Crafting</skill>
+        <minLevel>10</minLevel>
+      </li>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+      <li>TableMachining</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>250</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Apparel_PowerArmor</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Apparel_PowerArmor>1</Apparel_PowerArmor>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plasteel</li>
+        <li>Apparel_PowerArmor</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>RepairArmourHelmet</defName>
+    <label>repair power armour helmet</label>
+    <description>Use plasteel to reinforce worn power armour helmets.</description>
+    <jobString>Reapiring power armour helmet.</jobString>
+    <workAmount>3000</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <skillRequirements>
+      <li>
+        <skill>Crafting</skill>
+        <minLevel>10</minLevel>
+      </li>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+      <li>TableMachining</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Apparel_PowerArmorHelmet</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Apparel_PowerArmorHelmet>1</Apparel_PowerArmorHelmet>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plasteel</li>
+        <li>Apparel_PowerArmorHelmet</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>RepairShield</defName>
+    <label>repair personal shield</label>
+    <description>Use uranium to reinforce worn personal shields.</description>
+    <jobString>Repairing personal shield.</jobString>
+    <workAmount>1500</workAmount>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <skillRequirements>
+      <li>
+        <skill>Crafting</skill>
+        <minLevel>10</minLevel>
+      </li>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+      <li>TableMachining</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Apparel_PersonalShield</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Apparel_PersonalShield>1</Apparel_PersonalShield>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Uranium</li>
+        <li>Apparel_PersonalShield</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  
+</RecipeDefs>

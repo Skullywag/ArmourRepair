@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>ArmourRepair</name>
+	<author>Skullywag</author>
+	<targetVersion>Alpha 12</targetVersion>
+	<description>Adds the ability to "repair" power armour and shields at the machining workbench. Repairing is actually crafting a new set of armour using armour/shield as an ingredient, 
+  so itll reroll the quality based on skill, costs quite a lot plasteel/uranium though.</description>
+</ModMetaData>
