@@ -27,7 +27,7 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>250</count>
+        <count>100</count>
       </li>
       <li>
         <filter>
@@ -75,7 +75,7 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>100</count>
+        <count>25</count>
       </li>
       <li>
         <filter>
