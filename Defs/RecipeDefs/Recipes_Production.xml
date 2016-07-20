@@ -27,7 +27,7 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>100</count>
+        <count>50</count>
       </li>
       <li>
         <filter>
@@ -37,6 +37,14 @@
         </filter>
         <count>1</count>
       </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Component</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
     </ingredients>
     <products>
       <Apparel_PowerArmor>1</Apparel_PowerArmor>
@@ -45,6 +53,7 @@
       <thingDefs>
         <li>Plasteel</li>
         <li>Apparel_PowerArmor</li>
+        <li>Component</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
@@ -75,12 +84,20 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>25</count>
+        <count>20</count>
       </li>
       <li>
         <filter>
           <thingDefs>
             <li>Apparel_PowerArmorHelmet</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Component</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -93,6 +110,7 @@
       <thingDefs>
         <li>Plasteel</li>
         <li>Apparel_PowerArmorHelmet</li>
+        <li>Component</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
@@ -128,6 +146,14 @@
       <li>
         <filter>
           <thingDefs>
+            <li>Component</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
             <li>Apparel_PersonalShield</li>
           </thingDefs>
         </filter>
@@ -140,6 +166,7 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Uranium</li>
+        <li>Component</li>
         <li>Apparel_PersonalShield</li>
       </thingDefs>
     </fixedIngredientFilter>
